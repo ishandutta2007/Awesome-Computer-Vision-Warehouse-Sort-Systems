@@ -30,6 +30,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
@@ -39,6 +40,10 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 - [Disclaimer](#disclaimer)
 
 
+
+## Sector Overview & Market Dynamics
+
+The global warehouse robotics market is estimated at **$7.7B to $10.0B** in 2025–2026, advancing at a **~14–17% CAGR** under escalating supply-chain throughput demands and fulfillment labor constraints. Market dynamics exhibit a **dual-tier structure**: foundational intralogistics infrastructure remains concentrated among established industrial conglomerates (e.g., KNAPP, Daifuku, Dematic), whereas the AI vision, autonomous mobile manipulator, and 6-DoF picking layer is **moderately fragmented** with innovative pure-play startups and RaaS providers competing intensely across specialized perception and manipulation niches.
 
 ## SaaS/Hosted Platforms
 
