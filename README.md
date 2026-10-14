@@ -64,75 +64,64 @@ The global warehouse robotics market is estimated at **$7.7B to $10.0B** in 2025
 
 ## Open-Source GitHub Projects
 
+- **[FoundationPose](https://github.com/NVlabs/FoundationPose)** [![GitHub stars](https://img.shields.io/github/stars/NVlabs/FoundationPose?style=social&color=white)](https://github.com/NVlabs/FoundationPose/stargazers)
+  Unified 6D pose estimation and tracking framework for novel and arbitrary objects from NVIDIA. Eliminates CAD model requirements at test time, providing high-precision, real-time tracking for complex warehouse picking cells.
 
+- **[PyRender](https://github.com/mmatl/pyrender)** [![GitHub stars](https://img.shields.io/github/stars/mmatl/pyrender?style=social&color=white)](https://github.com/mmatl/pyrender/stargazers)
+  Fast, lightweight, GPU-accelerated Python library for physically-based rendering and visualization of 3D scenes, widely used to synthesize depth and RGB-D scenes for bin-picking models.
 
-- **[GPD (Grasp Pose Detection)](https://github.com/atenpas/gpd)**
+- **[GraspNet Baseline](https://github.com/graspnet/graspnet-baseline)** [![GitHub stars](https://img.shields.io/github/stars/graspnet/graspnet-baseline?style=social&color=white)](https://github.com/graspnet/graspnet-baseline/stargazers)
+  Official baseline models and benchmark evaluation tools for the GraspNet-1Billion dataset. Standard toolset for 6-DoF robotic grasp pose generation in cluttered warehouse and tabletop environments.
 
-  Open-source package for detecting **6-DOF grasp poses** for 2-finger robot hands in 3D point clouds . **The foundational open-source grasp detection library.** Strengths: works for **novel objects** (no CAD models required), works in **dense clutter**, outputs **6-DOF poses** (more than just top-down grasps) . Two-step process: samples large number of grasp candidates, classifies them as viable or not . Supports single or two depth sensors with CAFFE model files . Requires PCL 1.9+, Eigen 3.0+, OpenCV 3.4+ .
+- **[AnyGrasp SDK](https://github.com/graspnet/anygrasp_sdk)** [![GitHub stars](https://img.shields.io/github/stars/graspnet/anygrasp_sdk?style=social&color=white)](https://github.com/graspnet/anygrasp_sdk/stargazers)
+  General object robotic grasping toolkit based on large-scale grasp models. Supports rapid 6-DoF gripper pose evaluation across arbitrary unknown geometries and dense piles in logistics setups.
 
+- **[Open Industry Project](https://github.com/Open-Industry-Project/Open-Industry-Project-Godot)** [![GitHub stars](https://img.shields.io/github/stars/Open-Industry-Project/Open-Industry-Project-Godot?style=social&color=white)](https://github.com/Open-Industry-Project/Open-Industry-Project-Godot/stargazers)
+  Open-source warehouse and factory automation simulator built on Godot Engine. Features full PLC industrial protocol communications (OPC UA, Modbus, Siemens S7, EtherNet/IP, UR RTDE) to simulate sorting conveyors and robotic cells.
 
+- **[GPD (Grasp Pose Detection)](https://github.com/atenpas/gpd)** [![GitHub stars](https://img.shields.io/github/stars/atenpas/gpd?style=social&color=white)](https://github.com/atenpas/gpd/stargazers)
+  Foundational open-source package for detecting 6-DoF grasp poses for 2-finger robot hands in 3D point clouds without CAD models, designed specifically to operate inside dense bin clutter.
 
-- **[GraspFast](https://github.com/upc-ghy/GraspFast)**
+- **[Robotic Grasping (GG-CNN)](https://github.com/skumra/robotic-grasping)** [![GitHub stars](https://img.shields.io/github/stars/skumra/robotic-grasping?style=social&color=white)](https://github.com/skumra/robotic-grasping/stargazers)
+  Generative Grasping Convolutional Neural Network (GG-CNN) predicting pixel-wise antipodal grasp quality, angle, and width from depth images in real time (~50 Hz) for closed-loop dynamic sorting.
 
-  Multi-stage lightweight 6-DoF grasp pose fast detection for cluttered scenes (Pattern Recognition, 2025) . **Achieves ~42 FPS at highest precision** with **8.06% accuracy improvement** on "Seen" test set over SOTA . Features foreground bounding box-guided point cloud preprocessing, MinkowskiEngine-based hierarchical lightweight feature extraction, binary reliability evaluation for grasp point filtering, and optimal local sampling for multi-grasp parameter prediction . **The fastest open-source 6-DoF grasp detector available.** Deployed on Franka Emika robot for real-world cluttered scene grasping .
+- **[Contact-GraspNet](https://github.com/NVlabs/contact_graspnet)** [![GitHub stars](https://img.shields.io/github/stars/NVlabs/contact_graspnet?style=social&color=white)](https://github.com/NVlabs/contact_graspnet/stargazers)
+  NVIDIA PyTorch implementation of Contact-GraspNet for end-to-end 6-DoF grasp generation from single or multi-view point clouds based on grasp contact point probability.
 
+- **[Robotic Grasping Papers](https://github.com/rhett-chen/Robotic-grasping-papers)** [![GitHub stars](https://img.shields.io/github/stars/rhett-chen/Robotic-grasping-papers?style=social&color=white)](https://github.com/rhett-chen/Robotic-grasping-papers/stargazers)
+  Curated taxonomy and literature collection on robotic grasping, 6-DoF pose detection, tactile sensing, and reinforcement learning for warehouse manipulation.
 
+- **[Dex-Net](https://github.com/BerkeleyAutomation/dex-net)** [![GitHub stars](https://img.shields.io/github/stars/BerkeleyAutomation/dex-net?style=social&color=white)](https://github.com/BerkeleyAutomation/dex-net/stargazers)
+  UC Berkeley's Dexterity Network codebase for generating massive synthetic grasp datasets, computing 3D analytic grasp metrics, and training robust grasp quality convolutional networks (GQ-CNN).
 
-- **[GraphGrasp](https://github.com/BIT-robot-group/GraphGrasp)**
+- **[GQ-CNN (Grasp Quality CNN)](https://github.com/BerkeleyAutomation/gqcnn)** [![GitHub stars](https://img.shields.io/github/stars/BerkeleyAutomation/gqcnn?style=social&color=white)](https://github.com/BerkeleyAutomation/gqcnn/stargazers)
+  Package for training and deploying Grasp Quality Convolutional Neural Networks on depth images for parallel-jaw grippers and suction cups in high-throughput bin-picking.
 
-  Graph-guided 6-DoF grasp pose estimation network (AAAI 2026) . **Achieves nearly same performance as SOTA with ~1/5 the parameters**, significantly improving prediction speed . Graph analysis from scene, object, and grasping perspectives: graph feature embedding for scene modeling, graph transformer for object spatial relationships, multi-metric grasp pose evaluation for grasp graph construction . Outperforms previous methods in real-world robot grasping scenarios .
+- **[FoundationPoseROS2](https://github.com/ammar-n-abbas/FoundationPoseROS2)** [![GitHub stars](https://img.shields.io/github/stars/ammar-n-abbas/FoundationPoseROS2?style=social&color=white)](https://github.com/ammar-n-abbas/FoundationPoseROS2/stargazers)
+  ROS2 production-ready integration combining Segment Anything 2 (SAM2) and FoundationPose for real-time 6D object pose tracking with Intel RealSense cameras in sorting cells.
 
+- **[GraspNeRF](https://github.com/PKU-EPIC/GraspNeRF)** [![GitHub stars](https://img.shields.io/github/stars/PKU-EPIC/GraspNeRF?style=social&color=white)](https://github.com/PKU-EPIC/GraspNeRF/stargazers)
+  Multiview-based 6-DoF grasp detection using generalizable Neural Radiance Fields (NeRF), resolving grasp prediction for challenging transparent and specular items where standard depth sensors fail (ICRA 2023).
 
+- **[SceneNet](https://github.com/ankurhanda/SceneNet)** [![GitHub stars](https://img.shields.io/github/stars/ankurhanda/SceneNet?style=social&color=white)](https://github.com/ankurhanda/SceneNet/stargazers)
+  Repository and tools for generating photo-realistic synthetic indoor scenes, trajectory data, and depth maps used in training robotic perception and cluttered bin understanding algorithms.
 
-- **[SYN-PBOX](https://github.com/ccteaher/projects-SYN-PBOX)**
+- **[SYN-PBOX](https://github.com/ccteaher/projects-SYN-PBOX)** [![GitHub stars](https://img.shields.io/github/stars/ccteaher/projects-SYN-PBOX?style=social&color=white)](https://github.com/ccteaher/projects-SYN-PBOX/stargazers)
+  Benchmark dataset and YOLOv8-D dual-stream vision network for robotic bin-picking of box-shaped objects (15,000 synthetic annotated images achieving >95% zero-shot real picking transfer).
 
-  Large-scale benchmark dataset for bin picking of box-shaped objects (Neurocomputing, 2025) . **15,000 realistic images** of 21 box-shaped objects with point clouds, RGB, depth, and detailed annotations (6D pose, segmentation mask, instance segmentation, grasping surface) . Proposes **YOLOv8-D** dual-stream network achieving **>95% grasping success rate on previously unseen real objects** after training only on synthetic data . Demonstrates effective sim-to-real transfer .
+- **[UR10e 3D Vision-Guided Bin Picking](https://github.com/SurabhiGupta17/UR10e-3D-Vision-Guided-Bin-Picking)** [![GitHub stars](https://img.shields.io/github/stars/SurabhiGupta17/UR10e-3D-Vision-Guided-Bin-Picking?style=social&color=white)](https://github.com/SurabhiGupta17/UR10e-3D-Vision-Guided-Bin-Picking/stargazers)
+  Autonomous bin-picking reference stack for Universal Robots UR10e using ROS2 Jazzy, Gazebo Harmonic, MoveIt motion planning, and RealSense D435 camera point clouds.
 
+- **[Isaac Sim Logistics Sorting Robot](https://github.com/Hazzzard-LYX/Isaacsim-logistics-sorting-robot)** [![GitHub stars](https://img.shields.io/github/stars/Hazzzard-LYX/Isaacsim-logistics-sorting-robot?style=social&color=white)](https://github.com/Hazzzard-LYX/Isaacsim-logistics-sorting-robot/stargazers)
+  End-to-end simulation environment in NVIDIA Isaac Sim for logistics sorting: LiDAR localization, A* path navigation, pick-action, bank sortation, and container offloading.
 
+- **[GraphGrasp](https://github.com/BIT-robot-group/GraphGrasp)** [![GitHub stars](https://img.shields.io/github/stars/BIT-robot-group/GraphGrasp?style=social&color=white)](https://github.com/BIT-robot-group/GraphGrasp/stargazers)
+  Graph-guided 6-DoF grasp pose estimation network (AAAI 2026) achieving SOTA accuracy with ~1/5 the model parameters via hierarchical graph transformers modeling spatial relationships.
 
-- **[FoundationPoseROS2](https://github.com/ammar-n-abbas/FoundationPoseROS2)**
+- **[GraspFast](https://github.com/upc-ghy/Franka-GraspFast)** [![GitHub stars](https://img.shields.io/github/stars/upc-ghy/Franka-GraspFast?style=social&color=white)](https://github.com/upc-ghy/Franka-GraspFast/stargazers)
+  Multi-stage lightweight 6-DoF grasp pose detector running at ~42 FPS on GPU for cluttered bins, deployed on Franka Emika robotic arms (Pattern Recognition, 2025).
 
-  ROS2-integrated system for **6D object pose estimation and tracking** based on FoundationPose architecture . Uses RealSense2 with **Segment Anything Model 2 (SAM2)** for end-to-end, model-based, real-time pose estimation and tracking of **novel objects** . **The most modern open-source pose estimation stack for warehouse robotics.**
-
-
-
-- **[Open Industry Project](https://github.com/Open-Industry-Project/Open-Industry-Project)**
-
-  Free and open-source warehouse/manufacturing development framework and simulator (MIT) . **797 GitHub stars**, 107 forks, GDScript-based . **The most comprehensive open-source warehouse simulation environment** for testing robotic picking and sorting systems before deployment.
-
-
-
-- **[Isaac Sim Logistics Sorting Robot](https://github.com/Hazzzard-LYX/Isaacsim-logistics-sorting-robot)**
-
-  LiDAR localization, grid-map path planning, and action simulation for a logistics sorting robot in Isaac Sim (2026) . Features logistics competition field generation, real robot URDF/STL model import, **A\* path planning**, pick action, sorting baffle action, unload action, and independent 2D LiDAR known-map localization prototype . Complete task flow: pick zone identification → gripper pick → bank sorting → placement zone identification → silo unload → return to start .
-
-
-
-- **[UR10e 3D Vision-Guided Bin Picking](https://github.com/SurabhiGupta17/UR10e-3D-Vision-Guided-Bin-Picking)**
-
-  Autonomous bin-picking system using UR10e robotic arm with 3D vision (2025) . Integrated with Intel RealSense D435 camera for depth perception and object recognition. Software stack: ROS2 Jazzy, Gazebo Harmonic, MoveIt for motion planning, OpenCV and PCL for point cloud processing . **A complete reference implementation for UR10e-based bin picking.**
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Robotic Grasping Papers](https://github.com/rhett-chen/Robotic-grasping-papers)** — Curated paper list of robotic grasping and related works (258 GitHub stars) . **Essential reading for understanding the field.**
-
-- **[GraspNet Baseline](https://github.com/graspnet/graspnet-baseline)** — Baseline model for GraspNet-1Billion benchmark .
-
-- **[Contact-GraspNet](https://github.com/NVlabs/contact_graspnet)** — PyTorch implementation of Contact-GraspNet for 6-DoF grasping .
-
-- **[GraspNeRF](https://github.com/graspnerf/graspnerf)** — Multiview-based 6-DoF grasp detection for transparent and specular objects using NeRF (ICRA 2023) .
-
-- Community **n8n** workflows for picking system alerting and sortation analytics automation.
-
-
-
-**Frameworks for building custom systems**: Combine **GPD** or **GraspFast** for 6-DoF grasp detection with **GraphGrasp** for lightweight efficient inference, **FoundationPoseROS2** for novel object pose estimation, **Open Industry Project** for simulation and testing, and **Isaac Sim Logistics Sorting Robot** for path planning—creating a fully self-hosted, enterprise-grade warehouse sort system.
-
-
+**Frameworks for building custom systems**: Combine **FoundationPose** or **FoundationPoseROS2** for novel object pose tracking, **GPD**, **Contact-GraspNet**, or **GraspFast** for 6-DoF grasp detection, **GraphGrasp** for lightweight inference, **Open Industry Project** or **Isaac Sim** for simulation, and **GQ-CNN** for grasp verification—creating a fully self-hosted, enterprise-grade warehouse sortation system.
 
 ## How to Contribute
 
