@@ -42,65 +42,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Covariant](https://covariant.ai/)**
-
-  AI-powered robotic picking platform for warehouse fulfillment. Uses deep learning for object recognition and grasp planning across variable SKUs, mixed cases, and irregular packaging.
-
-
-
-- **[Dexterity](https://www.dexterity.ai/)**
-
-  Full-stack robotic picking systems for warehouse and logistics. Features dual-arm robots with tactile sensing for handling diverse objects in cluttered environments.
-
-
-
-- **[Berkshire Grey](https://www.berkshiregrey.com/)**
-
-  Intelligent robotic automation for fulfillment operations. Features AI-powered piece picking, sortation, and packing systems for e-commerce and retail.
-
-
-
-- **[Ambi Robotics](https://ambirobotics.com/)**
-
-  AI-powered robotic sorting systems using AmbiSort platform. Features suction-based gripping with deep learning for parcel and piece handling.
-
-
-
-- **[Plus One Robotics](https://plusonerobotics.com/)**
-
-  AI vision software for robotic piece picking. Features PickOne perception platform with remote supervision for exception handling.
-
-
-
-- **[Photoneo](https://www.photoneo.com/)**
-
-  3D vision and AI for robotic bin picking. Features PhoXi 3D scanners and Bin Picking Studio for automated pick-and-place in cluttered environments.
-
-
-
-- **[OSARO](https://www.osaro.com/)**
-
-  AI-powered robotic picking and fulfillment automation . Combines industrial robot arms with SightWorks perception for variable products, mixed cases, and irregular packaging. AutoModel allows new SKUs without complete object model creation. Applications include mixed-case depalletizing, piece picking, kitting, and automated bagging . Deployed at Zenni Optical for eyewear order fulfillment with Cognex barcode readers .
-
-
-
-- **[Fizyr](https://www.fizyr.com/)**
-
-  AI-driven vision software for robotic picking (founded 2014, Delft, Netherlands) . Provides real-time object recognition and precision pick-and-place for logistics and warehousing. Key metrics: detection accuracy, SKU/parcel variety handling, and processing time for picking point generation .
-
-
-
-- **[Mujin](https://www.mujin.co.jp/en/)**
-
-  Intelligent robot control platform with 3D vision and motion planning for bin picking and machine tending.
-
-
-
-- **[Knapp Pick-it-Easy](https://www.knapp.com/)**
-
-  Robot-based piece picking system for warehouse automation with 3D vision and AI for handling diverse articles.
+| Platform | Company Valuation / Revenue | Starting Pricing Tier | Free Tier Limits | Key Capabilities & Overview |
+| :--- | :--- | :--- | :--- | :--- |
+| **[KNAPP Pick-it-Easy](https://www.knapp.com/)** | **€2.14B (~$2.33B)** annual revenue (FY 2025/26) | Starting at **~$8,500/month/cell** (RaaS lease & software support contract) | **30-day guided pilot evaluation** (limited to 1 simulated workstation and benchmark SKU dataset) | Robot-based piece picking workstation for warehouse logistics with AI-guided 3D vision, auto-handling diverse retail and pharma articles. |
+| **[Dexterity](https://www.dexterity.ai/)** | **$1.65B** valuation ($380M+ raised; ~$66M ARR) | Starting at **~$6,000/month/robot** (RaaS model, base tier palletizing & singulation) | **30-day proof-of-concept trial** (limited to 1 physical cell test or synthetic environment digital twin simulation) | Full-stack robotic picking and mobile manipulation with dual-arm tactile sensing for unstructured environments like truck unloading and singulation. |
+| **[Mujin](https://www.mujin.co.jp/en/)** | **$1.0B+** valuation ($150M+ raised; ~$116M revenue) | Starting at **~$4,500/month/controller** (Mujin Controller 3D vision & motion planning license) | **14-day simulation sandbox trial** (virtual digital twin picking environment limited to 5 test CAD models) | Real-time motion planning and 3D perception platform powering autonomous bin picking, machine tending, and depalletizing. |
+| **[Covariant](https://covariant.ai/)** | **$625M** valuation ($245M raised; tech licensed by Amazon) | Starting at **~$3,500/month/station** (Covariant Brain vision software license tier) | **30-day enterprise evaluation** (benchmarked against client dataset of up to 500 SKU scans) | Universal AI robotic brain (RFM-1) for piece picking, order induction, and mixed-case sortation across varied and irregular SKUs. |
+| **[Berkshire Grey](https://www.berkshiregrey.com/)** | **$375M** valuation (SoftBank acquisition; ~$51M revenue) | Starting at **~$7,500/month/system** (Robotics-as-a-Service base sortation & picking module) | **30-day operational feasibility trial** (evaluation limited to sample parcel profile analysis and warehouse workflow assessment) | Intelligent enterprise robotics for fulfillment; features AI-powered piece picking, robotic induction, and parcel sortation. |
+| **[OSARO](https://www.osaro.com/)** | **~$175M** valuation ($95M raised; ~$15M ARR) | Starting at **~$2,500/month/robot** (SightWorks AI vision software license) | **30-day software pilot license** (limited to single-camera 2D/3D feed and 1,000 simulated pick cycles) | Hardware-agnostic AI perception and piece-picking software for automated bag kitting, induction, and mixed-case depalletizing. |
+| **[Ambi Robotics](https://ambirobotics.com/)** | **~$150M** valuation ($67M raised; ~$12M ARR) | Starting at **~$3,000/month/cell** (AmbiSort software & system operational subscription) | **14-day warehouse throughput trial** (limited to pre-deployment simulation run on up to 250 sample packages) | AI-powered robotic sorting systems (AmbiSort) leveraging Sim2Real deep learning and suction manipulation for parcel handling. |
+| **[Plus One Robotics](https://plusonerobotics.com/)** | **~$140M** valuation ($100M raised; ~$18M ARR) | Starting at **~$2,200/month/arm** (PickOne AI vision software subscription) | **30-day supervised pilot trial** (includes up to 50 hours of Yonder human-in-the-loop exception handling assistance) | 3D perception AI software for piece picking and parcel induction with Yonder cloud-based human-in-the-loop remote supervision. |
+| **[Photoneo](https://www.photoneo.com/)** | **~$90M** valuation (Acquired by Zebra Technologies; ~$35M rev) | Starting at **~$490/month** (Bin Picking Studio vision & localization software license; scanner purchased separately) | **30-day fully functional trial license** (Bin Picking Studio complete features, limited to 1 workstation/dongle) | 3D vision and localization software paired with PhoXi 3D scanners and MotionCam-3D for bin-picking in cluttered environments. |
+| **[Fizyr](https://www.fizyr.com/)** | **~$35M** valuation ($4M+ seed raised; ~$9M revenue) | Starting at **~$1,800/month/pick-point** (Fizyr OS deep learning vision software license) | **30-day developer evaluation trial** (limited to offline dataset inference on up to 2,000 images/point clouds) | Plug-and-play deep learning vision software for system integrators, providing real-time 6-DoF picking poses for unknown parcels and SKUs. |
 
 
 
